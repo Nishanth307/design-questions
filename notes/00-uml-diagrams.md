@@ -243,7 +243,7 @@ classDiagram
 There are 2 major types of relationships between classes:
 * `Inheritance` - A relationship between a superclass and a subclass. The subclass inherits the attributes and methods of the superclass.
 * `Association` - A relationship between 2 classes. The classes are associated with each other. The association can be one of the following:
-  * `Aggregation` - A relationship between 2 classes where the lifetime of the child class is dependent on the lifetime of the parent class. The child class can exist without the parent class.
+  * `Aggregation` - A relationship between 2 classes where the lifetime of the child class is independent on the lifetime of the parent class. The child class can exist without the parent class.
   * `Composition` - A relationship between 2 classes where the lifetime of the child class is dependent on the lifetime of the parent class. The child class cannot exist without the parent class.
 
 Inheritance is represented by a line with an arrow pointing to the superclass. Sometimes the arrow is replaced by a triangle.
